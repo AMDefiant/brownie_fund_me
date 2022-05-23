@@ -1,4 +1,3 @@
-from logging import exception
 from scripts.helpful_scripts import get_account, LOCAL_BLOCKCHAIN_ENVIRONMENTS
 from scripts.deploy import deploy_fund_me
 from brownie import network, accounts, exceptions
